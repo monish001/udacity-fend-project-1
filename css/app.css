@@ -74,7 +74,7 @@ header>div>span{
 .l-horizontal-fluid{
   padding: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin: 5px 0 0;
 }
