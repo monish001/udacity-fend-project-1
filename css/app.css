@@ -44,7 +44,7 @@ header>div>span{
   font-size: smaller;
 }
 
-.main-logo{
+.main-logo>*{
   border-radius: 5px;
   max-width: 100px;
   max-height: 100px;
@@ -54,7 +54,7 @@ header>div>span{
   -webkit-filter: grayscale(100%) sepia(100%);
   -webkit-transition: -webkit-filter 0.5s ease;
 }
-.main-logo:hover{
+.main-logo>*:hover{
   filter: none;
   -webkit-filter: none;
 }
