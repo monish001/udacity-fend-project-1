@@ -10,11 +10,13 @@ html {
 }
 
 @media screen and (min-width: 400px) {
-  html{font-size: 100%;}
+  html {
+    font-size: 100%;
+  }
 }
 
 body {
-  font-family: 'Heebo', sans-serif;
+  font-family: "Heebo", sans-serif;
   color: #2d3c49;
 }
 
@@ -30,6 +32,7 @@ img {
 /*
  * START: header section;
  */
+
 header {
   border-bottom: 3px solid #7d97ad;
   margin-bottom: 10px;
@@ -62,10 +65,12 @@ header>div>span {
   -webkit-filter: grayscale(100%) sepia(100%);
   -webkit-transition: -webkit-filter 0.5s ease;
 }
+
 .main-logo>*:hover {
   filter: none;
   -webkit-filter: none;
 }
+
 /*
  * END:   header section;
  */
@@ -73,6 +78,7 @@ header>div>span {
 /*
  * START: featured work section;
  */
+
 .featured-work-section>h3 {
   color: #7d97ad;
   margin-bottom: 0;
@@ -106,7 +112,7 @@ header>div>span {
   font-size: large;
 }
 
-.project figcaption>div {
+.project figcaption>p {
   overflow-wrap: break-word;
   font-size: xx-small;
   text-align: center;
@@ -121,12 +127,12 @@ header>div>span {
  * START: utility classes
  */
 
-
 .ellipsis {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
 /*
  * END:   utility classes
  */
