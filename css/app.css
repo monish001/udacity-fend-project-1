@@ -5,54 +5,54 @@ dark-gray: #2d3c49
 light-gray: #7d97ad
 */
 
-html{
+html {
   font-size: 90%;
 }
 
-@media screen and (min-width: 400px){
+@media screen and (min-width: 400px) {
   html{font-size: 100%;}
 }
 
-body{
+body {
   font-family: 'Heebo', sans-serif;
   color: #2d3c49;
 }
 
-body>*{
+body>* {
   margin: 8px auto;
   max-width: 1000px;
 }
 
-img{
+img {
   width: 100%;
 }
 
 /*
  * START: header section;
  */
-header{
+header {
   border-bottom: 3px solid #7d97ad;
   margin-bottom: 10px;
 }
 
-header>div{
+header>div {
   float: right;
 }
 
-header>div>h1{
+header>div>h1 {
   font-weight: 100;
   margin-bottom: 0;
   text-transform: uppercase;
 }
 
-header>div>span{
+header>div>span {
   font-weight: 400;
   text-transform: uppercase;
   float: right;
   font-size: smaller;
 }
 
-.main-logo>*{
+.main-logo>* {
   border-radius: 5px;
   max-width: 100px;
   max-height: 100px;
@@ -62,7 +62,7 @@ header>div>span{
   -webkit-filter: grayscale(100%) sepia(100%);
   -webkit-transition: -webkit-filter 0.5s ease;
 }
-.main-logo>*:hover{
+.main-logo>*:hover {
   filter: none;
   -webkit-filter: none;
 }
@@ -73,13 +73,13 @@ header>div>span{
 /*
  * START: featured work section;
  */
-.featured-work-section>h3{
+.featured-work-section>h3 {
   color: #7d97ad;
   margin-bottom: 0;
   font-weight: 300;
 }
 
-.l-horizontal-fluid{
+.l-horizontal-fluid {
   padding: 0;
   display: flex;
   justify-content: space-between;
@@ -87,18 +87,18 @@ header>div>span{
   margin: 5px 0 0;
 }
 
-.l-horizontal-fluid>*{
+.l-horizontal-fluid>* {
   list-style: none;
   min-width: 10rem;
   width: 30%;
   margin-bottom: 15px;
 }
 
-.project>figure{
+.project>figure {
   margin: 0;
 }
 
-.project figcaption>h2{
+.project figcaption>h2 {
   margin: 0;
   text-transform: uppercase;
   text-align: center;
@@ -106,7 +106,7 @@ header>div>span{
   font-size: large;
 }
 
-.project figcaption>div{
+.project figcaption>div {
   overflow-wrap: break-word;
   font-size: xx-small;
   text-align: center;
