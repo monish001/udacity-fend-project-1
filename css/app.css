@@ -5,6 +5,14 @@ dark-gray: #2d3c49
 light-gray: #7d97ad
 */
 
+html{
+  font-size: 90%;
+}
+
+@media screen and (min-width: 400px){
+  html{font-size: 100%;}
+}
+
 body{
   font-family: 'Heebo', sans-serif;
   color: #2d3c49;
@@ -81,7 +89,8 @@ header>div>span{
 
 .l-horizontal-fluid>*{
   list-style: none;
-  width: 10rem;
+  min-width: 10rem;
+  width: 30%;
   margin-bottom: 15px;
 }
 
@@ -93,7 +102,8 @@ header>div>span{
   margin: 0;
   text-transform: uppercase;
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
+  font-size: large;
 }
 
 .project figcaption>div{

@@ -9,7 +9,11 @@
   <body>
     <header>
       <picture class="main-logo">
-        <img src="img/me.jpg" alt="logo - monish gupta pic"/>
+        <img
+          src="img/logo-100.jpg"
+          srcset="img/logo-100.jpg 100w, img/logo-200.jpg 200w"
+          sizes="100px"
+          alt="logo - monish gupta pic"/>
       </picture>
       <div>
         <h1 class="title">Monish Gupta</h1>
@@ -18,7 +22,16 @@
     </header>
     <main>
       <section class="hero-section">
-        <picture><img src="img/main.png" alt="hero image"/></picture>
+        <picture>
+          <img
+            src="img/main-300.png"
+            srcset="img/main-2000.png 2000w,
+                    img/main-1000.png 1000w,
+                    img/main-600.png 600w,
+                    img/main-300.png 300w"
+            sizes="(min-width: 1000px) 1000px, 100vw"
+            alt="hero image"/>
+        </picture>
       </section>
       <section class="featured-work-section">
         <h3>Featured Work</h3>
@@ -26,7 +39,16 @@
           <ul class="l-horizontal-fluid">
             <li class="project">
               <figure>
-                <picture><img src="img/1.Snaketime-home.png"/></picture>
+                <picture>
+                  <img
+                    src="img/Snaketime-home-300.png"
+                    srcset="img/Snaketime-home-200.png 200w,
+                            img/Snaketime-home-100.png 100w,
+                            img/Snaketime-home-600.png 600w,
+                            img/Snaketime-home-300.png 300w"
+                    sizes="(min-width: 1000px) 300px,(min-width: 500px) 30vw, 10rem"
+                    alt="snake game project"/>
+                </picture>
                 <figcaption>
                   <h2 class="ellipsis">Snake Time</h2>
                   <div>https://github.com/monish001/SnakeInHTML5</div>
@@ -35,7 +57,16 @@
             </li>
             <li class="project">
               <figure>
-                <picture><img src="img/QP_Downloader4.png" alt="Previous years question paper downloader project"/></picture>
+                <picture>
+                  <img
+                    src="img/QP_Downloader4-300.png"
+                    srcset="img/QP_Downloader4-200.png 200w,
+                            img/QP_Downloader4-100.png 100w,
+                            img/QP_Downloader4-600.png 600w,
+                            img/QP_Downloader4-300.png 300w"
+                    sizes="(min-width: 1000px) 300px,(min-width: 500px) 30vw, 10rem"
+                    alt="Previous years question paper downloader project"/>
+                </picture>
                 <figcaption>
                   <h2 class="ellipsis">Question Paper Downloader</h2>
                   <div>https://github.com/monish001/ThaparQPDownloader</div>
@@ -44,7 +75,16 @@
             </li>
             <li class="project">
               <figure>
-                <picture><img src="img/Timetable.jpg"/></picture>
+                <picture>
+                  <img
+                    src="img/Timetable-300.jpg"
+                    srcset="img/Timetable-200.jpg 200w,
+                            img/Timetable-100.jpg 100w,
+                            img/Timetable-600.jpg 600w,
+                            img/Timetable-300.jpg 300w"
+                    sizes="(min-width: 1000px) 300px,(min-width: 500px) 30vw, 10rem"
+                    alt="Time table scheduler project"/>
+                </picture>
                 <figcaption>
                   <h2 class="ellipsis">Timetable manager</h2>
                   <div>https://github.com/monish001/TimeTableManager</div>
