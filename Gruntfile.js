@@ -13,11 +13,33 @@ module.exports = function(grunt) {
         options: {
           engine: 'im',
           sizes: [{
-            width: '100%',
-            height: '100%',
-            //suffix: "-2000",
+            width: 2000, // 1000px @ 2x
+            aspectRatio: true,
+            upscale: false
+            //suffix: "_1000_2x"
+            //height: '100%',
             //quality: 50,
-            rename: false
+            //rename: false
+          },{
+            width: 1000, // 1000px @ 1x
+            aspectRatio: true,
+            upscale: false
+          },{
+            width: 600, // 30% of 1000px @ 2x
+            aspectRatio: true,
+            upscale: false
+          },{
+            width: 300, // 30% of 1000px @ 1x
+            aspectRatio: true,
+            upscale: false
+          },{
+            width: 200, // 100px @ 2x
+            aspectRatio: true,
+            upscale: false
+          },{
+            width: 100, // 100px @ 1x
+            aspectRatio: true,
+            upscale: false
           }]
         },
 
@@ -55,7 +77,7 @@ module.exports = function(grunt) {
       dev: {
         files: [{
           expand: true,
-          src: 'img-src/*.{gif,jpg,png}',
+          src: 'img-src/fixed/*.{gif,jpg,png}',
           dest: 'img/'
         }]
       },
