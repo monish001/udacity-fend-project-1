@@ -22,7 +22,6 @@ body {
 
 body>* {
   margin: 8px auto;
-  max-width: 1000px;
 }
 
 img {
@@ -35,7 +34,7 @@ img {
 
 header {
   border-bottom: 3px solid #7d97ad;
-  margin-bottom: 10px;
+  padding-bottom: 8px;
 }
 
 header>div {
@@ -105,7 +104,7 @@ header>div>span {
 }
 
 .project figcaption>h2 {
-  margin: 0;
+  margin: 10px;
   text-transform: uppercase;
   text-align: center;
   font-weight: 400;
